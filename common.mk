@@ -418,6 +418,7 @@ PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.sm6150
 
 # Update
+AB_OTA_UPDATER := false
 PRODUCT_SOONG_NAMESPACES += bootable/deprecated-ota
 
 # USB
